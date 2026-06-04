@@ -10,7 +10,7 @@ import Navbar from "../components/Navbar";
 
 import { fetchOrder } from "../redux/slices/orderSlice";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://order-management-app-1-hehq.onrender.com");
 
 const OrderTracking = () => {
   const { id } = useParams();

@@ -13,7 +13,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.status(200).json({
     success: true,
-    message: "Food Delivery API Running 🚀",
+    message: "Food Delivery API Running.",
   });
 });
 
